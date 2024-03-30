@@ -4,7 +4,7 @@ export default function Name(){
     let router = useRouter();
     return (
         <main>
-            <button onClick={()=>router.back()}></button>
+            <button onClick={()=>router.back()}>Go to back</button>
         </main>
     )
 }
